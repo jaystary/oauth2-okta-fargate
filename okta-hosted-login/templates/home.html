@@ -1,0 +1,21 @@
+{% extends "template.html" %}
+
+{% block content %}
+<h2>Login / Signup</h2>
+
+{% if oidc.user_loggedin %}
+<div>
+    <p>Welcome back, <span></span>!</p>
+    <p>You are already authenticated</p>
+    <p>Visit the <a href="{{ url_for('profile') }}">My Profile</a> page in this application to view the information
+        retrieved with your OAuth Access Token.</p>
+</div>
+{% else %}
+<div>
+</div>
+
+<form method="get" action="login">
+    <button id="login-button" class="btn btn-primary" type="submit">Login</button>
+</form>
+{% endif %}
+{% endblock content %}

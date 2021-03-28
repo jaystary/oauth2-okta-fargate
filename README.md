@@ -1,5 +1,12 @@
 
-# Welcome to your CDK Python project!
+# OAuth2 flow through Okta
+
+#### App requires integration with Okta. It implements an Auth flow whereas all configurations (Self-Service Sign up / Password Reset / MFA ...) need to be configured in a dedicated Okta application.
+
+Okta Client ID / Secret (from dedicated app) + CDK Account ID need to be set
+
+### Deployment through CDK:
+
 
 This is a blank project for Python development with CDK.
 
