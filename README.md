@@ -5,6 +5,8 @@
 
 Okta Client ID / Secret (from dedicated app) + CDK Account ID need to be set
 
+To see this in action, check login.jaysbox.io
+
 ### Deployment through CDK:
 
 
