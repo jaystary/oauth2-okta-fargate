@@ -1,11 +1,11 @@
 
 # OAuth2 flow through Okta
 
-* App requires integration with Okta. It implements an Auth flow whereas all configurations (Self-Service Sign up / Password Reset / MFA ...) need to be configured in a dedicated Okta application.
+#### App requires integration with Okta. It implements an Auth flow whereas all configurations (Self-Service Sign up / Password Reset / MFA ...) need to be configured in a dedicated Okta application.
 
 Okta Client ID / Secret (from dedicated app) + CDK Account ID need to be set
 
-To see this in action, check login.jaysbox.io
+[To see this in action](https://login.jaysbox.io)
 
 ### Setting up Okta:
 [Setting up Okta](https://developer.okta.com/docs/guides/implement-oauth-for-okta/overview/)
